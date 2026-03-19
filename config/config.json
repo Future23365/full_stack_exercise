@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "1234",
+    "database": "test_api_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00",
+    "logQueryParameters": true
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "test_api_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "test_api_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
